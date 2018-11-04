@@ -1,0 +1,6 @@
+dispatch:
+- url: "yogesh.co/*"
+  service: default
+
+- url: "staging.yogesh.co/*"
+  service: staging
