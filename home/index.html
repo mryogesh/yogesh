@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yogesh Lakhotia</title>
+    <style>
+        .yjl {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            overflow: auto
+        }
+
+        .yjl-information {
+            position: relative;
+            padding: 20px;
+            animation: fadein 1s, moveup .5s;
+        }
+
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes moveup {
+            from {
+                top: 20px;
+            }
+            to {
+                top: 0px;
+            }
+        }
+
+        .heading-name {
+            text-align: center;
+            font-size: 28px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            text-transform: uppercase
+        }
+
+        .description {
+            width: 100%;
+            max-width: 580px;
+            margin-top: 30px;
+            font-weight: 400;
+            line-height: 1.4;
+            font-family: Bitter
+        }
+
+        .description a {
+            color: #299CA2
+        }
+
+        .description a:hover {
+            transition-property: color;
+            transition-duration: 0.3s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s;
+            color: #2eb0b6
+        }
+    </style>
+</head>
+<body>
+<div class="yjl">
+    <div class="yjl-information">
+        <h1 class="heading-name">Yogesh Lakhotia</h1>
+
+        <p class="description">
+            I'm a full stack engineer with a love for product design.
+            Right now, I'm part of the great team at <a href="https://quicksell.com" target="_blank">QuickSell</a>.
+        </p>
+
+        <p class="description">
+            You can check out my code on <a target="_blank" href="https://github.com/mryogesh">Github</a>,
+            and my writing on <a target="_blank" href="https://medium.com/@mryogesh">Medium</a>.
+        </p>
+    </div>
+</div>
+</body>
+</html>
